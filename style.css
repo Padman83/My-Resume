@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300i,400&display=swap');
+
+/* Reset Styles */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+a{
+	text-decoration: none;
+	text-transform: none;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Roboto Mono', monospace;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing : antialiased; 
+    font-size: 19px;
+    background-color: whitesmoke;
+    color: grey;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+p {
+	color: #15171a;
+	font-size: 17;
+	line-height: 31px;
+}
+
+strong {
+	font-weight: 600;
+}
+
+div , footer {
+	box-sizing: border-box;
+}
+
+/* Reset ends */
+
+
+
+
+/* Main */
+
+.container {
+    max-width: 1100px;
+    height: auto;
+    margin: 60px auto;
+}
+
+.main {
+    margin: 50px auto;
+    position: relative;
+}
+
+h1.name {
+    font-size: 65px;
+    font-weight: 300;
+    display: inline-block;
+}
+
+
+
+.email {
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    color: rgb(212, 155, 11);
+    margin-top: 20px;
+    
+}
+
+.phone {
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(235, 172, 13);
+    margin-top: 20px;
+}
+
+.about-me {
+    color: burlywood;
+    font-size: 44px;
+    font-weight: 300;
+    margin-top: 60px;
+    line-height: 55px
+}
+
+
+/* Skills and Interest */
+
+.sections {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.card {
+    margin: 30px 0;
+}
+
+.card .exp , card div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card div {
+    width: 70%;
+}
+
+.card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #81899C;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card div span {
+    font-size: 16px;
+    color:#282c34;
+    line-height: 22px;
+}
+
+
+/* Media Queries */
+
+@media(max-width: 1024px){
+	.container {
+		padding: 15px;
+		margin: 0px auto;
+	}
+	.card {
+		margin-top: 250px;
+	}
+}
+
+@media(max-width: 768px){
+	.container {
+		padding: 15px;
+		margin: 0px auto;
+	}
+	.card {
+		margin-top: 320px;
+	}
+
+	.card {
+		padding: 15px;
+		text-align: left;
+	}
+	.card h2 {
+		font-size: 70px;
+	}
+		.card , .sections {
+		width: 100%;
+		height: auto;
+		margin: 10px 0;
+		float: left;
+    }
+    
+    @media(max-width: 425px) {
+        h1.name {
+            font-size: 40px;
+        }
+    
+        .card , .sections {
+            width: 100%;
+            height: auto;
+            margin: 10px 0;
+            float: left;
+        }
+    
+        
+    
+        .main {
+            margin-top: 15px;
+            font-size: 20px;
+            line-height: 28px;
+        }
+        .container {
+            margin: 0px;
+            padding: 0 15px;
+        }
+        footer {
+            margin-top: 2050px;
+        }
+    }
