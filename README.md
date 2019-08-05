@@ -1,5 +1,9 @@
-# My-Resume
+## About The Project 
+My html & css Resume
 
-### My portfolio resume.
+### Inspired by Nicolas Meuzard and built by New to design.
+* HTML + CSS.
 
-### Written in html and css.
+## Contact 
+
+Project Link: [https://github.com/Padman83/My-Resume] (https://github.com/Padman83/My-Resume)
