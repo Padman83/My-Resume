@@ -11,4 +11,4 @@ My html & css Resume
 
 ## Contact 
 
-Project Link: [https://github.com/Padman83/My-Resume] (https://github.com/Padman83/My-Resume)
+Project Link: [https://github.com/Padman83/My-Resume]
