@@ -9,8 +9,8 @@ My html & css Resume
 * [Visual Studio Code] (https://code.visualstudio.com)
 
 ### Built With
-* [html] (html)
-* [css] (css)
+* [html] 
+* [css]
 
 ## Contact 
 
