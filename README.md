@@ -11,6 +11,7 @@ My html & css Resume
 ### Built With
 * [html] 
 * [css]
+* [Google Fonts] (https://fonts.google.com)
 
 ## Contact 
 
